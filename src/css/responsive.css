@@ -1,0 +1,62 @@
+@media(max-width:1024px){
+    .card {
+        width: 300px;
+        height: 200px;
+        padding: 15px 25px;
+    }
+
+    .card p{
+        margin-bottom: 25px;
+    }
+
+    .card img{
+        width: 50px;
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        height: 100%;
+    }
+
+    .title{
+        margin-top: 40px;
+    }
+
+    .cards{
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(4, auto);
+    }
+
+    .supervisor{
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+    }
+
+    .builder{
+        grid-column: 1 / 1;
+        grid-row: 2 / 2;
+    }
+
+    .karma{
+        grid-column: 1 / 1;
+        grid-row: 3 / 3;
+    }
+
+    .calculator{
+        grid-column: 1 / 1;
+        grid-row: 4 / 4;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:425px){
+    .title, h2{
+        font-size: 24px;
+    }
+
+    .description{
+        font-size: 16px;
+        width: 80%;
+    }
+}
